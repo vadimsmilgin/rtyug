@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<link  href="css.css" type="text/css" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">  
+
+    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+    <script type="text/javascript" src="js-form.js"></script>
+
+	<title>Главная</title>
+</head>
+<body class="f">
+<div class="wrapper">
+    <div class ="content">
+<div class="container">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Автомастерская</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav main-menu">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Услуги<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="diag.html">Диагностика авто</a></li>
+                            <li><a href="#">Ремонт стоек</a></li>
+                            <li><a href="#">Ремонт подвески</a></li>
+                            <li><a href="#">Восстановление подвески</a></li>
+                            <li><a href="#">Рулевое управление</a></li>
+                            <li><a href="#">Развал,схождение</a></li>
+                            <li><a href="#">Ремонт пневмоподвески</a></li>
+                        </ul>
+                    </li>
+                    <li class="link"><a href="first.html">Интересно узнать<span class="sr-only">(current)</span></a></li>
+                    <li class="link"><a href="second.html">Фотогалерея</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="link1">+375-29-885-96-02</li>
+                    <li class="link"><a href="about.html">Как нас найти</a></li>
+                    <li class="link"><a href="vhod2.html">Задать вопрос</a></li>
+
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</div>
+<p align="center"> <br/><br/><br/></p>
+
+    <div align="center">
+                    <h4 class="red1">Задать вопрос:</h4>
+                    <div align="center" id='loadBar'></div>
+                <form action="#" method="post" id="cForm2" class="red">
+
+                       <label > Ваше имя:</label>
+                       <div class="input" id="cor5">
+                            <input value="" id="posName" type="text"/>
+                       </div>
+
+                       <label >Ваш email:</label>
+                       <div class="input" id="cor6">
+                            <input value="" id="posEmail" type="text"/>
+                       </div>
+
+                       <label >Ваш вопрос:</label>
+                       <div class="textarea" id="cor7">
+                           <textarea id="posText" cols="22"></textarea>
+                       </div>
+
+                <button type="button" id="send" class="btn btn-primary btn-lg">Отправить</button>
+
+                </form>
+    </div>
+    </div>
+    <div class="footer1" data-url="URL">
+        <p>Минск, ул. Волочаевская, 30, т.: +375-29-885-96-02</p>
+        <p>&copy Автомастерская Номер Один, 1998-2016 г</p>
+    </div>
+
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap.min.js"></script>
+</body>
+</html>
